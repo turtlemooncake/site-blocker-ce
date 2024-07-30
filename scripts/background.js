@@ -18,6 +18,6 @@ async function siteBlocker(tabId, changeInfo, tab){
             chrome.tabs.update(tabId, { url: HOME_URL }); 
         }
     } catch (err) {
-        console.log("Thrown in onUpdated try/cetch. Error: %s", err)
+        console.log("Thrown in siteBlocker try/catch. Error: %s", err)
     }
 }
