@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Site Blocker",
+    "version": "1.0",
+    "description": "Redirects select URLs away when attempted to be accessed.",
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "permissions": ["activeTab", "tabs"],
+    "action": {
+        "default_icon": "images/cat.png"
+    }
+  }
